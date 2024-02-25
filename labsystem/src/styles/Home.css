@@ -1,0 +1,108 @@
+
+.navbar {
+    background-color: #46d24f;
+    color: black;
+    padding: 15px;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    /* Display the list items horizontally */
+}
+
+.nav-list li {
+    margin-right: 10px;
+    /* Add some space between the list items */
+}
+.nav-list li a {
+    color: black;
+    /* Set text color to white */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-image {
+    width: 1400px;
+    /* Set your desired width */
+    height: 300px;
+    /* Set your desired height */
+    object-fit: cover;
+
+    /* Maintain aspect ratio and cover the container */
+}
+.container {
+    display: flex;
+    height: 700px;
+    
+}
+
+
+.box {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+        /* Use flexbox to center items */
+        align-items: center;
+        /* Vertically center items */
+}
+
+/* Home.css */
+.slick-dots {
+    position: absolute;
+    bottom: 20px;
+    /* Adjust this value to change the distance from the bottom */
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.link-no-underline {
+    text-decoration: none;
+    color: green;
+    font-weight: bold; /* Make the text bold */
+  text-align: center; 
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Adjust the dot color and opacity */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #fff;
+    /* Change the active dot color */
+}
+
+.image-container {
+    max-width: 75px;
+}

@@ -1,0 +1,43 @@
+footer {
+    height: 230px;
+    background-color: #333;
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 2rf 1fr;
+    color: black;
+    align-items: center;
+
+
+    h2 {
+        color: black;
+        font-family: fantasy;
+        font-weight: 400;
+        font-size: 2rem;
+
+
+
+    }
+
+    p,
+    strong {
+        margin: 1rem;
+    }
+
+
+}
+footer aside a:nth-child(1) svg {
+    color: black;
+    /* LinkedIn blue color */
+}
+
+/* GitHub Icon */
+footer aside a:nth-child(2) svg {
+    color:black;
+    /* GitHub black color */
+}
+
+/* Instagram Icon */
+footer aside a:nth-child(3) svg {
+    color: black;
+    /* Instagram pink color */
+}

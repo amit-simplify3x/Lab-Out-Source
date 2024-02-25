@@ -1,0 +1,20 @@
+.my-location-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.my-location-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.my-location-container p {
+    font-size: 16px;
+}
+
+.my-location-container strong {
+    font-weight: bold;
+    color: #333;
+    /* Adjust color as needed */
+}
